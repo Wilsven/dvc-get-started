@@ -57,6 +57,6 @@ plots:
       template: simple
       x: recall
       y:
-        eval/prc/train.json: precision
-        eval/prc/test.json: precision
-  - eval/importance.png
+        eval/plots/sklearn/prc/train.json: precision
+        eval/plots/sklearn/prc/test.json: precision
+  - eval/plots/images/importance.png
